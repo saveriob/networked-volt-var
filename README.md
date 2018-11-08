@@ -13,7 +13,8 @@ S. Bolognani, R. Carli, G. Cavraro, and S. Zampieri, "On the need for communicat
 - case_ieee123_2compensators is the Matpower case file corresponding to a modified IEEE 123-bus test feeder
 - pvproduction.mat contains the time series of the PV power production
 - demandprofile.mat contains the time series of the power demands by the loads
-- localstatic.m is an auxiliary function that implements fully decentralized feedbak control strategies
+- localstatic.m is an auxiliary function that implements fully decentralized control strategies
+- gparameters.m is an auxiliary function that computes the interagent gains for the networked control strategy
 
 Useful links:
 
